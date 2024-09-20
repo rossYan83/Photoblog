@@ -1,0 +1,119 @@
+.header__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 315px;
+    margin-top: 71px;
+    margin-right: 315px;
+    margin-bottom: 120px;
+}
+
+a {
+    color: #7D7D7D;
+    font-family: "Playfair Display";
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+    gap: 99px;
+    line-height: normal;
+    transition: all.5s;
+}
+
+a:hover {
+    color: #03A9F4;
+}
+
+.container {
+    min-width: 906px;
+    margin: 0 auto;
+}
+
+.lifestyle__content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    margin-left: 300px;
+    margin-right: 147px;
+    margin-bottom: 100px;
+}
+
+.section__header-1 {
+    color: #B4AD9E;
+    font-family: "Ubuntu";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.section__header-2 {
+    color: #626262;
+    font-family: "Playfair Display";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.section__text {
+    color: #626262;
+    font-family: "Playfair Display";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 420px;
+    height: 76px;
+    margin-top: 80px;
+    margin-bottom: 140px;
+}
+
+.section__header-1 {
+    margin-top: 80px;
+    margin-bottom: 40px;
+
+
+}
+
+
+
+
+.footer__button {
+    display: flex;
+    justify-content: center;
+
+}
+
+.button {
+    margin-bottom: 100px;
+    color: #626262;
+    font-family: "Playfair Display";
+    font-size: 14px;
+    border: 1px solid #626262;
+    width: 165px;
+    height: 65px;
+    cursor: pointer;
+    background-color: #fff;
+    margin-top: 100px;
+    transition: all .5s;
+}
+
+.button:hover {
+    color: black;
+    font-weight: 700;
+    border: 2px solid black;
+}
+
+.header{
+    padding-top: 71px;
+    padding-bottom: 71px;
+}
+
+main{
+    padding-top: 21px;
+    padding-bottom: 94px;
+}
+
+.footer{
+    padding-bottom: 66px;
+}
